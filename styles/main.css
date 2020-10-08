@@ -9,6 +9,60 @@
   box-sizing: border-box;
 }
 
+.c-black {
+  color: #272A31;
+}
+
+.c-orange {
+  color: #EC5242;
+}
+
+.c-gray {
+  color: #d3d3d3;
+}
+
+.c-white {
+  color: white;
+}
+
+.bg-black {
+  background-color: #272A31;
+}
+
+.bg-orange {
+  background-color: #EC5242;
+}
+
+.bg-gray {
+  background-color: #d3d3d3;
+}
+
 /* =====  End of GLOBAL SETTINGS RESET  ====== */
 
+/* =============================================
+=            HEADER SECTION            =
+============================================= */
 
+.event-logo {
+  max-width: 50px;
+}
+
+.navbar-2-list {
+  list-style-type: none;
+}
+
+.navbar-1,
+  .navbar-2 {
+    display: none;
+  }
+
+
+
+/* =====  End of HEADER SECTION  ====== */
+
+@media (min-width: 768px) {
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+  }
+}
