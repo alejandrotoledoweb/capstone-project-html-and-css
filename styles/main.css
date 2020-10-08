@@ -55,6 +55,10 @@
   width: 4rem;
 }
 
+.smaller-none {
+  display: none;
+}
+
 /* =====  End of GLOBAL SETTINGS RESET  ====== */
 
 /* =============================================
