@@ -43,7 +43,7 @@
 }
 
 .font-f-1 {
-  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+  font-family: 'Cocogoose Pro Trial', Arial, Helvetica, sans-serif;
 }
 
 .font-f-2 {
@@ -78,8 +78,34 @@
   font-size: 3rem;
 }
 
-
 /* =====  End of HEADER SECTION  ====== */
+
+/* =============================================
+=            TITLE SECTION            =
+============================================= */
+
+.title-h1 {
+  font-size: 1.6rem;
+}
+
+.title-span {
+  font-size: 2.7rem;
+  font-weight: 1000;
+  line-height: 2.5rem;
+}
+
+.description-section {
+  border: 2px solid white;
+  background-color: #f7f7f7;
+  border: 5px solid #d3d3d3;
+}
+
+.date-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* =====  End of TITLE SECTION  ====== */
 
 @media (min-width: 768px) {
   .navbar-1,
@@ -93,9 +119,9 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1044px) {
   * {
-    /* max-width: 95%; */
+    max-width: 1044px;
     margin: 0 auto;
   }
 }
