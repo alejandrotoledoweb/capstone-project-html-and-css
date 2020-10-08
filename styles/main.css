@@ -129,6 +129,26 @@
 
 /* =====  End of MAIN PROGRAM SECTION  ====== */
 
+/* =============================================
+=            SPEAKERS SECTION            =
+============================================= */
+
+.font-orange-p {
+  font-family: 'Lato Italic', Arial, Helvetica, sans-serif;
+}
+
+.border-gray {
+  border: 2px solid #d3d3d3;
+  width: 4rem;
+}
+
+.name-speaker {
+  font-weight: 900;
+}
+
+/* =====  End of SPEAKERS SECTION  ====== */
+
+
 @media (min-width: 768px) {
   .navbar-1,
   .navbar-2 {
