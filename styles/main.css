@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .c-black {
@@ -37,6 +38,18 @@
   background-color: #d3d3d3;
 }
 
+.bg-gray-medium {
+  background-color: #3e3e3e;
+}
+
+.font-f-1 {
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+}
+
+.font-f-2 {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
 /* =====  End of GLOBAL SETTINGS RESET  ====== */
 
 /* =============================================
@@ -52,10 +65,18 @@
 }
 
 .navbar-1,
-  .navbar-2 {
-    display: none;
-  }
+.navbar-2 {
+  display: none;
+  visibility: hidden;
+}
 
+.nav-item-1 {
+  white-space: nowrap;
+}
+
+.bars-icon {
+  font-size: 3rem;
+}
 
 
 /* =====  End of HEADER SECTION  ====== */
@@ -63,6 +84,18 @@
 @media (min-width: 768px) {
   .navbar-1,
   .navbar-2 {
-    display: inherit;
+    display: initial;
+    visibility: initial;
+  }
+
+  .medium-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  * {
+    /* max-width: 95%; */
+    margin: 0 auto;
   }
 }
