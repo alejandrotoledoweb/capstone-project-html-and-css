@@ -181,4 +181,10 @@
     display: inherit;
     visibility: initial;
   }
+
+  .title-span {
+    font-size: 5rem;
+    line-height: 5rem;
+    max-width: 80%;
+  }
 }
