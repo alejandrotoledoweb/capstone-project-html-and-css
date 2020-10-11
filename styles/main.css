@@ -87,6 +87,11 @@
   font-size: 3rem;
 }
 
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* =====  End of HEADER SECTION  ====== */
 
 /* =============================================
@@ -156,7 +161,7 @@
 @media (min-width: 768px) {
   .navbar-1,
   .navbar-2 {
-    display: initial;
+    display: inherit;
     visibility: initial;
   }
 
@@ -166,8 +171,14 @@
 }
 
 @media (min-width: 1044px) {
-  * {
-    max-width: 1044px;
+  html {
+    max-width: 1064px;
     margin: 0 auto;
+  }
+
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
   }
 }
