@@ -57,6 +57,7 @@
 
 .smaller-none {
   display: none;
+  visibility: hidden;
 }
 
 /* =====  End of GLOBAL SETTINGS RESET  ====== */
@@ -142,9 +143,9 @@
 =            TICKETS SECTION            =
 ============================================= */
 
-#desktop-form {
-  max-width: 200px;
-}
+/* #desktop-form {
+  max-width: 50%;
+} */
 
 /* =====  End of TICKETS SECTION  ====== */
 
@@ -180,7 +181,7 @@
     visibility: initial;
   }
 
-  .medium-show {
+  .smaller-none {
     display: inherit;
     visibility: initial;
   }
@@ -188,6 +189,7 @@
   .medium-hide {
     display: none;
   }
+
 }
 
 @media (min-width: 1044px) {
@@ -199,13 +201,18 @@
   .navbar-1,
   .navbar-2 {
     display: inherit;
-    visibility: initial;
+    visibility: inherit;
   }
 
   .title-span {
     font-size: 5rem;
     line-height: 5rem;
     max-width: 80%;
+  }
+
+  .smaller-none {
+    display: inherit;
+    visibility: initial;
   }
 }
 
