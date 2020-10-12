@@ -29,8 +29,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the HTML File.
 
 ### Run tests
-- [We use Stylelint, Lighthout, & Webhint]()
-- Linters #2
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/capstone-project-html-and-css/actions/runs/302896834)
+- Linters #1
 
 
 ## Authors
