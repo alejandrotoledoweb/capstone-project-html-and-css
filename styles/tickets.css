@@ -1,0 +1,212 @@
+
+/* =============================================
+=            GLOBAL SETTINGS RESET            =
+============================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.c-black {
+  color: #272a31;
+}
+
+.c-orange {
+  color: #ec5242;
+}
+
+.c-gray {
+  color: #d3d3d3;
+}
+
+.c-white {
+  color: white;
+}
+
+.bg-black {
+  background-color: #272a31;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-gray {
+  background-color: #d3d3d3;
+}
+
+.bg-gray-medium {
+  background-color: #3e3e3e;
+}
+
+.font-f-1 {
+  font-family: 'Cocogoose Pro Trial', Arial, Helvetica, sans-serif;
+}
+
+.font-f-2 {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.border-orange {
+  border: 2px solid #ec5342;
+  width: 4rem;
+}
+
+.smaller-none {
+  display: none;
+}
+
+/* =====  End of GLOBAL SETTINGS RESET  ====== */
+
+/* =============================================
+=            HEADER SECTION            =
+============================================= */
+
+.event-logo {
+  max-width: 50px;
+}
+
+.navbar-2-list {
+  list-style-type: none;
+}
+
+.navbar-1,
+.navbar-2 {
+  display: none;
+  visibility: hidden;
+}
+
+.nav-item-1 {
+  white-space: nowrap;
+}
+
+.bars-icon {
+  font-size: 3rem;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* =====  End of HEADER SECTION  ====== */
+
+/* =============================================
+=            TITLE SECTION            =
+============================================= */
+
+.title-h1 {
+  font-size: 1.6rem;
+}
+
+.title-span {
+  font-size: 2.7rem;
+  font-weight: 1000;
+  line-height: 2.5rem;
+}
+
+.description-section {
+  background-color: #f7f7f7;
+  border: 5px solid #d3d3d3;
+}
+
+.date-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* =====  End of TITLE SECTION  ====== */
+
+/* =============================================
+=            MAIN PROGRAM SECTION            =
+============================================= */
+
+.bg-medium-opacity {
+  background-color: rgb(145, 145, 145, 0.2);
+}
+
+.titles-program {
+  font-weight: 700;
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+/* =====  End of MAIN PROGRAM SECTION  ====== */
+
+/* =============================================
+=            TICKETS SECTION            =
+============================================= */
+
+#desktop-form {
+  max-width: 200px;
+}
+
+/* =====  End of TICKETS SECTION  ====== */
+
+/* =============================================
+=            PARTNER SECTION            =
+============================================= */
+
+.partner-img {
+  max-width: 140px;
+}
+
+/* =====  End of PARTNER SECTION  ====== */
+
+/* =============================================
+=            FOOTER            =
+============================================= */
+
+.logo-footer {
+  width: 100px;
+  height: 81px;
+}
+
+/* =====  End of FOOTER  ====== */
+
+/* =============================================
+=            MEDIA QUERIES            =
+============================================= */
+
+@media (min-width: 768px) {
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .medium-show {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .medium-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 1044px) {
+  html {
+    max-width: 1064px;
+    margin: 0 auto;
+  }
+
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .title-span {
+    font-size: 5rem;
+    line-height: 5rem;
+    max-width: 80%;
+  }
+}
+
+/* =====  End of MEDIA QUERIES  ====== */
