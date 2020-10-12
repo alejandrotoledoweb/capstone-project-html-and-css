@@ -181,9 +181,9 @@
     visibility: initial;
   }
 
-  .smaller-none {
-    display: inherit;
-    visibility: initial;
+  .medium-show {
+    display: initial !important;
+    visibility: initial !important;
   }
 
   .medium-hide {
