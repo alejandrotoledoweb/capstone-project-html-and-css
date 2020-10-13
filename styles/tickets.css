@@ -87,11 +87,28 @@
 }
 
 .each-col-width-1 {
-  width: 5%;
+  width: 20%;
+}
+
+.each-col-width-2 {
+  width: 30%;
 }
 
 .each-col-width {
   width: 15%;
+}
+
+.title-tickets {
+  display: flex;
+  justify-content: center;
+}
+
+.double-width {
+  width: 30%;
+}
+
+.desktop-form {
+  width: 90%;
 }
 
 /* =====  End of TICKETS SECTION  ====== */
@@ -123,7 +140,8 @@
 
 @media (min-width: 768px) {
   .navbar-1,
-  .navbar-2 {
+  .navbar-2,
+  .smaller-none {
     display: inherit;
     visibility: initial;
   }
