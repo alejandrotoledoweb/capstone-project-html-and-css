@@ -124,7 +124,7 @@
 
 @media (min-width: 768px) {
   .navbar-1,
-  .navbar-2, {
+  .navbar-2 {
     display: inherit;
     visibility: initial;
   }

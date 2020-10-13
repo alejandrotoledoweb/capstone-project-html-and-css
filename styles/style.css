@@ -67,4 +67,8 @@
   display: none;
 }
 
+.logo-footer {
+  object-fit: contain;
+}
+
 /* =====  End of GLOBAL SETTINGS RESET  ====== */
