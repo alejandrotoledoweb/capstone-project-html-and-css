@@ -12,14 +12,14 @@
 <body>
 
   <header class="mx-auto">
-    <a class="medium-hide pl-4 bars-icon c-black" href="#"><i class="fas fa-bars"></i></a>
+    <i class="medium-hide pl-4 bars-icon c-black fas fa-bars"></i>
     <nav class="navbar-1  bg-gray-medium d-flex justify-content-end">
-      <a class="pl-2 pr-2 c-white" href="#">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a class="pl-2 pr-2 c-white" href="#">
-        <i class="fab fa-twitter-square"></i>
-      </a>
+      
+        <i class="pl-2 pr-2 c-white fab fa-facebook-square"></i>
+      
+      
+        <i class="pl-2 pr-2 c-white fab fa-twitter-square"></i>
+      
       <a class="pl-2 pr-2 c-white font-f-1" href="#">English</a>
       <a class="pl-2 pr-2 c-white font-f-1 nav-item-1" href="#">My page</a>
       <a class="pl-2 pr-2 c-white" href="#">Logout</a>
@@ -39,75 +39,57 @@
 
       <h1 class="c-black d-flex justify-content-center pb-1">Select Tickets</h1>
       <div class="border-orange d-flex mx-auto mb-5"></div>
-      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius rounded"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 1 </span>  Please select the day when you want to join CC Global Summit 2021</p>
-
-      <form action="/">
-        <div class="container-fluid medium-hide border title-tickets">
-          <p class="font-weight-bold">Tickets</p>
-        </div>
-        <div class="container first-row border">
-          
-          <p class="font-weight-bold smaller-none each-col-width">Tickets</p>
-          <p class="each-col-width-1">1-Day-Ticket</p>
-          <p class="double-width-3">2-Day-Ticket</p>
-          <p class="each-col-width">CC Afilliate</p>
-
-        </div>
+      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius pt-2 pb-2 w-75 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 1 </span>  Please select the day when you want to join CC Global Summit 2021</p>
 
 
-        <div class="container-fluid medium-hide border title-tickets">
-          <p class="font-weight-bold">Date</p>
-        </div>
-        <div class="container first-row border">
-          <p class="font-weight-bold smaller-none each-col-width-1">Date</p>
-          <p class="text-center each-col-width-3">15.Oct</p>
-          <p class="each-col-width-2">16.Oct</p>
-          <p class="each-col-width-2">15-16.Oct</p>
-          <p class="each-col-width">All</p>
+      <form action="/" class="tickets-form-1 text-center">
+        <table class="table-tickets">
+          <tr>
+            <th>Tickets</th>
+            <th>1-Day-Ticket</th>
+            <th colspan="2">2-Day-Ticket</th>
+            <th>Afilliate</th>
+          </tr>
+          <tr>
+            <th>Date</th>
+            <th>15.Oct</th>
+            <th>15.Oct</th>
+            <th>15-16.Oct</th>
+            <th>All</th>
+          </tr>
+          <tr>
+            <th>Normal</th>
+            <th>
+              <label for="nt" class="c-orange">$200.00<br><input type="radio" id="nt" name="nt"></label>
+            </th>
+            <th>
+              <label for="nt1" class="c-orange">$200.00<br><input type="radio" id="nt1" name="nt1"></label>
+            </th>
+            <th>
+              <label for="nt2" class="c-orange">$200.00<br><input type="radio" id="nt2" name="nt2"></label>
+            </th>
+            <th>
+              <label for="nt3" class="c-orange">$200.00<br><input type="radio" id="nt3" name="nt3"></label>
+            </th>
+          </tr>
 
-        </div>
+          <tr>
+            <th>Student</th>
+            <th>
+              <label for="nt4" class="c-orange">$200.00<br><input type="radio" id="nt4" name="nt4"></label>
+            </th>
+            <th>
+              <label for="nt5" class="c-orange">$200.00<br><input type="radio" id="nt5" name="nt5"></label>
+            </th>
+            <th>
+              <label for="nt6" class="c-orange">$200.00<br><input type="radio" id="nt6" name="nt6"></label>
+            </th>
+            <th>
+              <label for="nt7" class="c-orange">$200.00<br><input type="radio" id="nt7" name="nt7"></label>
+            </th>
+          </tr>
 
-        <div class="container-fluid medium-hide border title-tickets">
-          <p class="font-weight-bold">Normal</p>
-        </div>
-        <div class="container first-row border">
-          <p class="font-weight-bold each-col-width smaller-none ">Normal</p>
-          <div class="text-center c-orange font-weight-bold pl-2 pr-2 each-col-width">
-          <label for="nt" >$200.00<br><input type="radio" id="nt" name="nt"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-2 each-col-width">
-            <label for="nt-1">$200.00<br><input type="radio" id="nt-1" name="nt-1"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-1 each-col-width">
-            <label for="nt-2">$200.00<br><input type="radio" id="nt-2" name="nt-2"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-1 each-col-width">
-            <label for="nt-3">$200.00<br><input type="radio" id="nt-3" name="nt-3"></label>
-          </div>
-          
-        </div>
-
-        <div class="container-fluid medium-hide border title-tickets">
-          <p class="font-weight-bold ">Student</p>
-        </div>
-
-        <div class="container first-row border">
-          <p class="font-weight-bold each-col-width smaller-none ">Student</p>
-          <div class="text-center c-orange font-weight-bold pl-2 pr-2 each-col-width">
-            <label for="nt-4">$200.00<br><input type="radio" id="nt-4" name="nt-4"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-2 each-col-width">
-            <label for="nt-5">$200.00<br><input type="radio" id="nt-5" name="nt-5"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-1 each-col-width">
-            <label for="nt-6">$200.00<br><input type="radio" id="nt-6" name="nt-6"></label>
-          </div>
-          <div class="text-center c-orange font-weight-bold border-left pl-2 pr-1 each-col-width">
-            <label for="nt-7">$200.00<br><input type="radio" id="nt-7" name="nt-7"></label>
-          </div>
-          
-        </div>
-      </form>
+        </table>
     </section> 
 
 
@@ -116,7 +98,7 @@
       <h2 class="d-flex justify-content-center pb-1">Select Your Lunch</h2>
       <div class="border-orange d-flex mx-auto mb-5"></div>
 
-      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius rounded"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 2 </span>  Please select your lunch for registered day. There will be no further coasts for the lunch.</p>
+      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius pt-2 pb-2 w-75 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 2 </span>  Please select your lunch for registered day. There will be no further coasts for the lunch.</p>
 
       <p class="text-center c-black font-weight-bold">Day 1</p>
       
@@ -125,10 +107,10 @@
           
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
 
-          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 1 <input type="radio" ></p>
-          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 2 <input type="radio" ></p>
-          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 3 <input type="radio" ></p>
-          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 4 <input type="radio" ></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-8">Menu 1 <input type="radio" id="nt-8" name="nt-8"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-9">Menu 2 <input type="radio" id="nt-9" name="nt-9"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-10">Menu 3 <input type="radio" id="nt-10" name="nt-10"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-11">Menu 4 <input type="radio" id="nt-11" name="nt-11"></label></p>
           
 
         </div>
@@ -139,11 +121,11 @@
           <div class="row">
             
             <div class="col-sm-2 col-md-2 col-lg-2"></div>
-  
-            <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 1 <input type="radio" ></p>
-            <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 2 <input type="radio" ></p>
-            <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 3 <input type="radio" ></p>
-            <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2">Menu 4 <input type="radio" ></p>
+
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-18">Menu 1 <input type="radio" id="nt-18" name="nt-18"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-19">Menu 2 <input type="radio" id="nt-19" name="nt-19"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-110">Menu 3 <input type="radio" id="nt-110" name="nt-110"></label></p>
+          <p class="col-3 col-sm-2 col-md-2 col-lg-2 border c-orange font-weight-bold pt-2 pb-2"><label for="nt-111">Menu 4 <input type="radio" id="nt-111" name="nt-111"></label></p>
             
   
           </div>

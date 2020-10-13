@@ -71,7 +71,7 @@
 }
 
 .border-radius {
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 /* =====  End of MAIN PROGRAM SECTION  ====== */
@@ -80,39 +80,18 @@
 =            TICKETS SECTION            =
 ============================================= */
 
-.first-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.each-col-width {
-  width: 15%;
-}
-
-.each-col-width-1 {
-  width: 20%;
-}
-
-.each-col-width-2 {
-  width: 30%;
-}
-
-.each-col-width-3 {
-  width: 45%;
-}
-
-.title-tickets {
+.tickets-form-1 {
   display: flex;
   justify-content: center;
 }
 
-.desktop-form {
-  width: 90%;
+.tickets-form-1 tr, .tickets-form-1 th {
+  border: 1px solid #d3d3d3;
+  padding: 0.2rem 3rem;
 }
 
-.w-140 {
-  width: 140px;
+.table-tickets {
+  border: 5px dashed #ec5342;
 }
 
 /* =====  End of TICKETS SECTION  ====== */
