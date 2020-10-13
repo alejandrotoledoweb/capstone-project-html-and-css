@@ -80,6 +80,20 @@
 =            TICKETS SECTION            =
 ============================================= */
 
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.each-col-width-1 {
+  width: 5%;
+}
+
+.each-col-width {
+  width: 15%;
+}
+
 /* =====  End of TICKETS SECTION  ====== */
 
 /* =============================================
@@ -121,6 +135,10 @@
 
   .medium-hide {
     display: none;
+  }
+
+  .desktop-form {
+    width: 70%;
   }
 }
 
