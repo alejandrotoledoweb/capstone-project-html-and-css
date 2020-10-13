@@ -5,6 +5,13 @@ Capstone Project of HTML and CSS
 
 ![screenshot](./screenshot.png)
 
+This project contains 3 pages:
+
+- Main Page: Contains all the details about the event like name, place, date, speakers and activities.
+
+- About: this page explain a litle more about the company and the people behind the event, and if you have more questions you can go to thiws page and also contact someone to help you.
+
+- Tickets: in this page you can see the price and buy the tickets for each day on the event, also you will see a list of menu for each day where you can select them. 
 
 ## Built With
 
@@ -47,6 +54,14 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the issue [page](https://github.com/alejandrotoledoweb/capstone-project-html-and-css/issues)
 
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 ## Acknowledgements
 
 Design by [Cindy Shin](https://www.behance.net/adagio07)
+
+## License
+
+This project is [MIT]() licensed.
