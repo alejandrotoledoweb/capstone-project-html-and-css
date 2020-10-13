@@ -1,67 +1,5 @@
 
 /* =============================================
-=            GLOBAL SETTINGS RESET            =
-============================================= */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-.c-black {
-  color: #272a31;
-}
-
-.c-orange {
-  color: #ec5242;
-}
-
-.c-gray {
-  color: #d3d3d3;
-}
-
-.c-white {
-  color: white;
-}
-
-.bg-black {
-  background-color: #272a31;
-}
-
-.bg-orange {
-  background-color: #ec5242;
-}
-
-.bg-gray {
-  background-color: #d3d3d3;
-}
-
-.bg-gray-medium {
-  background-color: #3e3e3e;
-}
-
-.font-f-1 {
-  font-family: 'Cocogoose Pro Trial', Arial, Helvetica, sans-serif;
-}
-
-.font-f-2 {
-  font-family: Lato, Arial, Helvetica, sans-serif;
-}
-
-.border-orange {
-  border: 2px solid #ec5342;
-  width: 4rem;
-}
-
-.smaller-none {
-  display: none;
-}
-
-/* =====  End of GLOBAL SETTINGS RESET  ====== */
-
-/* =============================================
 =            HEADER SECTION            =
 ============================================= */
 
@@ -155,6 +93,17 @@
   font-weight: 900;
 }
 
+.speakers-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.each-article {
+  width: 100%;
+  height: 15rem;
+}
+
 /* =====  End of SPEAKERS SECTION  ====== */
 
 /* =============================================
@@ -162,7 +111,8 @@
 ============================================= */
 
 .partner-img {
-  max-width: 140px;
+  max-width: 150px;
+  object-fit: contain;
 }
 
 /* =====  End of PARTNER SECTION  ====== */
@@ -192,6 +142,16 @@
   .medium-hide {
     display: none;
   }
+
+  .speakers-article {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .each-article {
+    width: 50%;
+    height: 21rem;
+  }
 }
 
 @media (min-width: 1044px) {
@@ -200,16 +160,15 @@
     margin: 0 auto;
   }
 
-  .navbar-1,
-  .navbar-2 {
-    display: inherit;
-    visibility: initial;
-  }
-
   .title-span {
     font-size: 5rem;
     line-height: 5rem;
     max-width: 80%;
+  }
+
+  .each-article {
+    width: 50%;
+    height: 15rem;
   }
 }
 

@@ -1,4 +1,4 @@
-# NEWSWEEK PAGE USING BOOTSTRAP 
+# Capstone Project using HTML and CSS 
 
 Capstone Project of HTML and CSS
 
@@ -9,7 +9,7 @@ Capstone Project of HTML and CSS
 ## Built With
 
 - HTML
-- CSS
+- CSS3 (normal CSS and Bootstrap)
 
 ## Live Demo
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 - Linters #1
 
 
-## Authors
+## Author
 
 👤 **Author1**
 
@@ -42,3 +42,11 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-toledo-3b444b109/)
 
 ## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the issue [page](https://github.com/alejandrotoledoweb/capstone-project-html-and-css/issues)
+
+## Acknowledgements
+
+Design by [Cindy Shin](https://www.behance.net/adagio07)
