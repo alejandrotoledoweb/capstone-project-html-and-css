@@ -80,7 +80,8 @@
 =            TICKETS SECTION            =
 ============================================= */
 
-.tickets-form-1 tr, .tickets-form-1 th {
+.tickets-form-1 tr,
+.tickets-form-1 th {
   border: 1px solid #d3d3d3;
 }
 
@@ -93,7 +94,8 @@
   visibility: hidden;
 }
 
-.tickets-form-2 tr, .tickets-form-2 th {
+.tickets-form-2 tr,
+.tickets-form-2 th {
   border: 1px solid #d3d3d3;
   padding: 0.1rem 0.5rem;
 }
