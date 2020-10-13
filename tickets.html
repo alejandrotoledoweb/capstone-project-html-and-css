@@ -12,25 +12,36 @@
 <body>
 
   <header class="mx-auto">
-    <i class="medium-hide pl-4 bars-icon c-black fas fa-bars"></i>
-    <nav class="navbar-1  bg-gray-medium d-flex justify-content-end">
+    <nav class="navbar-1  bg-gray-medium d-flex justify-content-end align-items-center">
       
-        <i class="pl-2 pr-2 c-white fab fa-facebook-square"></i>
-      
-      
-        <i class="pl-2 pr-2 c-white fab fa-twitter-square"></i>
-      
+      <i class="pl-2 pr-2 c-white fab fa-facebook-square"></i>
+      <i class="pl-2 pr-2 c-white fab fa-twitter-square"></i>
       <a class="pl-2 pr-2 c-white font-f-1" href="#">English</a>
       <a class="pl-2 pr-2 c-white font-f-1 nav-item-1" href="#">My page</a>
       <a class="pl-2 pr-2 c-white" href="#">Logout</a>
     </nav>
 
-    <nav class="pt-2 pb-2 mb-4 navbar-2 d-md-flex d-lg-flex justify-content-md-around justify-content-lg-around  align-items-center c-black border-bottom">
+    <nav class="navbar navbar-expand-md navbar-light">
       <img class="navbar-item event-logo" src="images/logo-event.png" alt="logo-event">
-      <a class="navbar-item c-black" href="about.html">About</a>
-      <a class="navbar-item c-black" href="main.html">Main</a>
-      <a class="navbar-item c-orange font-weight-bolder" href="#">Tickets</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link c-black" href="main.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link c-black" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </li>    
+        </ul>
+      </div>  
     </nav>
+
+    
   </header>
 
   <main>
@@ -39,11 +50,11 @@
 
       <h1 class="c-black d-flex justify-content-center pb-1">Select Tickets</h1>
       <div class="border-orange d-flex mx-auto mb-5"></div>
-      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius pt-2 pb-2 w-75 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 1 </span>  Please select the day when you want to join CC Global Summit 2021</p>
+      <p class="text-center c-black border border-dark border-radius pt-2 pb-2 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 1 </span>  Please select the day when you want to join CC Global Summit 2021</p>
 
 
-      <form action="/" class="tickets-form-1 text-center">
-        <table class="table-tickets">
+      <form action="/" class="tickets-form-1 text-center smaller-hide medium-show container-fluid">
+        <table class="table-tickets-1 container-fluid">
           <tr>
             <th>Tickets</th>
             <th>1-Day-Ticket</th>
@@ -90,19 +101,82 @@
           </tr>
 
         </table>
+      </form>  
+
+        <form action="/" class="tickets-form-2 text-center medium-hide">
+          <table class="table-tickets-2 container-fluid">
+            <tr>
+              <th colspan="5">Tickets</th>
+            </tr>
+            <tr>
+              <th>1-Day-Ticket</th>
+              <th colspan="2">2-Day-Ticket</th>
+              <th>Afilliate</th>
+            </tr>
+
+            <tr>
+              <th colspan="5">Date</th>
+            </tr>
+
+            <tr>
+              <th>15.Oct</th>
+              <th>15.Oct</th>
+              <th>15-16.Oct</th>
+              <th>All</th>
+            </tr>
+
+            <tr>
+              <th colspan="5">Normal</th>
+            </tr>
+
+            <tr>
+              <th>
+                <label for="nt11" class="c-orange">$200.00<br><input type="radio" id="nt11" name="nt11"></label>
+              </th>
+              <th>
+                <label for="nt111" class="c-orange">$200.00<br><input type="radio" id="nt111" name="nt111"></label>
+              </th>
+              <th>
+                <label for="nt211" class="c-orange">$200.00<br><input type="radio" id="nt211" name="nt211"></label>
+              </th>
+              <th>
+                <label for="nt311" class="c-orange">$200.00<br><input type="radio" id="nt311" name="nt311"></label>
+              </th>
+            </tr>
+
+            <tr>
+              <th colspan="5">Student</th>
+            </tr>
+  
+            <tr>
+              <th>
+                <label for="nt14" class="c-orange">$200.00<br><input type="radio" id="nt14" name="nt14"></label>
+              </th>
+              <th>
+                <label for="nt15" class="c-orange">$200.00<br><input type="radio" id="nt15" name="nt15"></label>
+              </th>
+              <th>
+                <label for="nt16" class="c-orange">$200.00<br><input type="radio" id="nt16" name="nt16"></label>
+              </th>
+              <th>
+                <label for="nt17" class="c-orange">$200.00<br><input type="radio" id="nt17" name="nt17"></label>
+              </th>
+            </tr>
+          </table>
+        </form>
     </section> 
 
 
-    <section class="feature-section mb-5 container-fluid">
+    <section class="mb-5 container-fluid">
 
       <h2 class="d-flex justify-content-center pb-1">Select Your Lunch</h2>
       <div class="border-orange d-flex mx-auto mb-5"></div>
 
-      <p class="text-center c-black border ml-5 mr-5 border-dark border-radius pt-2 pb-2 w-75 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 2 </span>  Please select your lunch for registered day. There will be no further coasts for the lunch.</p>
+      <p class="text-center c-black border border-dark border-radius pt-2 pb-2 w-75 mx-auto mb-5"><span class="c-orange font-weight-bold"><i class="far fa-caret-square-right"></i> STEP 2 </span>  Please select your lunch for registered day. There will be no further coasts for the lunch.</p>
 
       <p class="text-center c-black font-weight-bold">Day 1</p>
       
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
@@ -137,7 +211,7 @@
 
   </main>
 
-  <footer class="d-flex container-fluid justify-content-between pt-5 mt-5 bg-gray-medium">
+  <footer class="footer-section d-flex container-fluid justify-content-between pt-5 mt-5 bg-gray-medium">
     <img class="logo-footer mr-2" src="images/logo-event.png" alt="event-logo">
     <div>
       <p class="c-white">2021 Creative Common Korea. Rights Reserved.</p>
@@ -145,5 +219,10 @@
     </div>
   </footer>
   
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
+
 </html>

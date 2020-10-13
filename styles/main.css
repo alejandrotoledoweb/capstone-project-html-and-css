@@ -74,6 +74,10 @@
   font-size: 1.5rem;
 }
 
+.each-pic {
+  opacity: 80%;
+}
+
 /* =====  End of MAIN PROGRAM SECTION  ====== */
 
 /* =============================================
@@ -157,11 +161,14 @@
     width: 50%;
     height: 21rem;
   }
+
+  .each-pic {
+    height: 22rem;
+  }
 }
 
 @media (min-width: 1044px) {
   html {
-    max-width: 1064px;
     margin: 0 auto;
   }
 
@@ -174,6 +181,19 @@
   .each-article {
     width: 50%;
     height: 15rem;
+  }
+
+  .navbar-1,
+  .navbar,
+  .footer-section,
+  .title-section,
+  .partner-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+
+  .each-pic {
+    height: 20rem;
   }
 }
 

@@ -80,31 +80,30 @@
 =            TICKETS SECTION            =
 ============================================= */
 
-.tickets-form-1 {
-  display: flex;
-  justify-content: center;
-}
-
 .tickets-form-1 tr, .tickets-form-1 th {
   border: 1px solid #d3d3d3;
-  padding: 0.2rem 3rem;
 }
 
-.table-tickets {
+.table-tickets-1 {
   border: 5px dashed #ec5342;
 }
 
-/* =====  End of TICKETS SECTION  ====== */
-
-/* =============================================
-=            PARTNER SECTION            =
-============================================= */
-
-.partner-img {
-  max-width: 140px;
+.smaller-hide {
+  display: none;
+  visibility: hidden;
 }
 
-/* =====  End of PARTNER SECTION  ====== */
+.tickets-form-2 tr, .tickets-form-2 th {
+  border: 1px solid #d3d3d3;
+  padding: 0.1rem 0.5rem;
+}
+
+.table-tickets-2 {
+  border: 5px dashed  #ec5342;
+  font-size: 0.75rem;
+}
+
+/* =====  End of TICKETS SECTION  ====== */
 
 /* =============================================
 =            FOOTER            =
@@ -123,8 +122,7 @@
 
 @media (min-width: 768px) {
   .navbar-1,
-  .navbar-2,
-  .smaller-none {
+  .navbar-2, {
     display: inherit;
     visibility: initial;
   }
@@ -136,6 +134,7 @@
 
   .medium-hide {
     display: none;
+    visibility: hidden;
   }
 
   .desktop-form {
@@ -145,7 +144,6 @@
 
 @media (min-width: 1044px) {
   html {
-    max-width: 1064px;
     margin: 0 auto;
   }
 
@@ -160,6 +158,14 @@
     font-size: 5rem;
     line-height: 5rem;
     max-width: 80%;
+  }
+
+  .navbar-1,
+  .navbar,
+  .main-section,
+  .footer-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
   }
 }
 

@@ -12,25 +12,35 @@
 <body>
 
   <header class="mx-auto">
-    <a class="medium-hide pl-4 bars-icon c-black" href="#"><i class="fas fa-bars"></i></a>
-    <nav class="navbar-1  bg-gray-medium d-flex justify-content-end">
-      <a class="pl-2 pr-2 c-white" href="#">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a class="pl-2 pr-2 c-white" href="#">
-        <i class="fab fa-twitter-square"></i>
+    <nav class="navbar-1  bg-gray-medium d-flex justify-content-end align-items-center">
+      <i class="pl-2 pr-2 c-white fab fa-facebook-square"></i>
+      <i class="pl-2 pr-2 c-white fab fa-twitter-square"></i>
       </a>
       <a class="pl-2 pr-2 c-white font-f-1" href="#">English</a>
       <a class="pl-2 pr-2 c-white font-f-1 nav-item-1" href="#">My page</a>
       <a class="pl-2 pr-2 c-white" href="#">Logout</a>
     </nav>
 
-    <nav class="pt-2 pb-2 mb-4 navbar-2 d-md-flex d-lg-flex justify-content-md-around justify-content-lg-around  align-items-center c-black border-bottom">
+    <nav class="navbar navbar-expand-md navbar-light">
       <img class="navbar-item event-logo" src="images/logo-event.png" alt="logo-event">
-      <a class="navbar-item c-black" href="about.html">About</a>
-      <a class="navbar-item c-black" href="#">Main</a>
-      <a class="navbar-item c-orange font-weight-bolder" href="tickets.html">Tickets</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link c-black" href="main.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link c-black" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </li>    
+        </ul>
+      </div>  
     </nav>
+
   </header>
 
   <main class="">
@@ -50,25 +60,25 @@
       <div class="container-fluid ">
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2">
+          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2 ">
             <img class="card-img-top" src="images/icon-1.jpg" alt="card-img-top-1">
-            <div class="card-body bg-medium-opacity">
+            <div class="card-body bg-medium-opacity each-pic">
               <h4 class="c-orange titles-program">Lecure</h4>
               <p class="card-text c-white">Listen to the speakers from various countries about the messenges of sharing and opening</p>
             </div>
           </div>
 
-          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2">
+          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2 ">
             <img class="card-img-top" src="images/icon-2.jpg" alt="card-img-top-1">
-            <div class="card-body bg-medium-opacity">
+            <div class="card-body bg-medium-opacity each-pic">
               <h4 class="titles-program c-orange">Exhibition</h4>
-              <p class="card-text c-white">Al the exhibitions and demostration of profucts that will we available for this new year and following.</p>
+              <p class="card-text c-white">Al the exhibitions and demostration of profucts that will we available for this new year and others past years.</p>
             </div>
           </div>
 
-          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2">
+          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2 ">
             <img class="card-img-top" src="images/icon-3.jpg" alt="card-img-top-1">
-            <div class="card-body bg-medium-opacity">
+            <div class="card-body bg-medium-opacity each-pic">
               <h4 class="titles-program c-orange">Forum</h4>
               <p class="card-text c-white">We will have a lot of forums about the new common techniques used by enigneers abroad.</p>
             </div>
@@ -76,15 +86,15 @@
 
           <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2">
             <img class="card-img-top" src="images/icon-4.jpg" alt="card-img-top-1">
-            <div class="card-body bg-medium-opacity">
+            <div class="card-body bg-medium-opacity each-pic">
               <h4 class="titles-program c-orange">Workshop</h4>
               <p class="card-text c-white">Also we will have usefull Workshop to discuss the best practices even in the worst scenearios.</p>
             </div>
           </div>
 
-          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2">
+          <div class="pt-2 pb-2 col-sm-12 col-md-6 col-lg-2 each-pic">
             <img class="card-img-top" src="images/icon-5.jpg" alt="card-img-top-1">
-            <div class="card-body bg-medium-opacity">
+            <div class="card-body bg-medium-opacity each-pic">
               <h4 class="titles-program c-orange">CC Ignite</h4>
               <p class="card-text c-white">Dont miss the change to collab with other engineers and learn from people around the world.</p>
             </div>
@@ -172,7 +182,7 @@
     </section>
 
 
-    <section class="partner-section bg-medium-opacity mt-4 pt-5 pb-4 mb-5">
+    <section class="partner-section bg-gray-medium mt-4 pt-5 pb-4 ">
       <h2 class="hide-all">empty heading</h2>
       <article class="d-flex flex-column mx-auto">
         <div>
@@ -196,7 +206,7 @@
 
   </main>
 
-  <footer class="d-flex container-fluid justify-content-between">
+  <footer class="footer-section d-flex container-fluid justify-content-between bg-medium-opacity pt-5 pb-5">
     <img class="logo-footer mr-2" src="images/logo-event.png" alt="event-logo">
     <div>
       <p>2021 Creative Common Korea. Rights Reserved.</p>
@@ -204,5 +214,9 @@
     </div>
   </footer>
   
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>

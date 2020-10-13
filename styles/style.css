@@ -9,6 +9,15 @@
   -moz-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'cocogooseregular';
+  src:
+    url('/styles/cocogoose_trial-webfont.woff2') format('woff2'),
+    url('/styles/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .c-black {
   color: #272a31;
 }
@@ -42,7 +51,7 @@
 }
 
 .font-f-1 {
-  font-family: 'Cocogoose Pro Trial', Arial, Helvetica, sans-serif;
+  font-family: cocogooseregular, Arial, Helvetica, sans-serif;
 }
 
 .font-f-2 {

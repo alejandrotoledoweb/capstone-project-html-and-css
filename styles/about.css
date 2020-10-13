@@ -144,7 +144,6 @@
 
 @media (min-width: 1044px) {
   html {
-    max-width: 1064px;
     margin: 0 auto;
   }
 
@@ -158,6 +157,17 @@
     font-size: 5rem;
     line-height: 5rem;
     max-width: 80%;
+  }
+
+  .navbar-1,
+  .navbar,
+  .title-section,
+  .partner-section,
+  .main-section,
+  .feature-section,
+  .footer-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
   }
 }
 
