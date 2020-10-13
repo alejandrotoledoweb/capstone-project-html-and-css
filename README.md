@@ -20,7 +20,7 @@ This project contains 3 pages:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/capstone-project-html-and-css/9e9c41b181c212891fd3995c3caa54f3b18a50a1/main.html)
+[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/capstone-project-html-and-css/6a98a12b3d70e53f899db1a12999de9162d6af23/main.html)
 
 
 ## Getting Started
@@ -36,8 +36,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the HTML File.
 
 ### Run tests
-- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/capstone-project-html-and-css/actions/runs/302896834)
-- Linters #1
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/capstone-project-html-and-css/actions/runs/305356940)
+- Linters #22
 
 
 ## Author
