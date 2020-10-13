@@ -86,6 +86,10 @@
   align-items: center;
 }
 
+.each-col-width {
+  width: 15%;
+}
+
 .each-col-width-1 {
   width: 20%;
 }
@@ -94,8 +98,8 @@
   width: 30%;
 }
 
-.each-col-width {
-  width: 15%;
+.each-col-width-3 {
+  width: 45%;
 }
 
 .title-tickets {
@@ -103,12 +107,12 @@
   justify-content: center;
 }
 
-.double-width {
-  width: 30%;
-}
-
 .desktop-form {
   width: 90%;
+}
+
+.w-140 {
+  width: 140px;
 }
 
 /* =====  End of TICKETS SECTION  ====== */
