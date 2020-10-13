@@ -115,6 +115,11 @@
   object-fit: contain;
 }
 
+.hide-all {
+  display: none;
+  visibility: hidden;
+}
+
 /* =====  End of PARTNER SECTION  ====== */
 
 /* =============================================
