@@ -1,0 +1,174 @@
+
+/* =====  End of GLOBAL SETTINGS RESET  ====== */
+
+/* =============================================
+=            HEADER SECTION            =
+============================================= */
+
+.event-logo {
+  max-width: 50px;
+}
+
+.navbar-2-list {
+  list-style-type: none;
+}
+
+.navbar-1,
+.navbar-2 {
+  display: none;
+  visibility: hidden;
+}
+
+.nav-item-1 {
+  white-space: nowrap;
+}
+
+.bars-icon {
+  font-size: 3rem;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* =====  End of HEADER SECTION  ====== */
+
+/* =============================================
+=            TITLE SECTION            =
+============================================= */
+
+.title-h1 {
+  font-size: 1.6rem;
+}
+
+.title-span {
+  margin: 0 auto;
+  font-size: 2.7rem;
+  font-weight: 1000;
+  line-height: 2.5rem;
+}
+
+.description-section {
+  background-color: #f7f7f7;
+  border: 5px solid #d3d3d3;
+}
+
+.date-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* =====  End of TITLE SECTION  ====== */
+
+/* =============================================
+=            MAIN PROGRAM SECTION            =
+============================================= */
+
+.bg-medium-opacity {
+  background-color: rgb(145, 145, 145, 0.2);
+}
+
+.titles-program {
+  font-weight: 700;
+}
+
+.btn-program {
+  font-size: 1.5rem;
+}
+
+.logo-event-medium {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+/* =====  End of MAIN PROGRAM SECTION  ====== */
+
+/* =============================================
+=            DESCRIPTION PAST EVENTS SECTION            =
+============================================= */
+
+.event-img-1 {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #ec5242),
+    url('https://miro.medium.com/max/3356/1*_j0jMB4y1yc9ZDl_RtvXhw.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.event-img-2 {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #ec5242),
+    url('https://cc.careersportal.ie/images/clients/images/2724.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.event-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+/* =====  End of DESCRIPTION PAST EVENTS SECTION  ====== */
+
+/* =============================================
+=            FOOTER            =
+============================================= */
+
+.logo-footer {
+  width: 100px;
+  height: 81px;
+}
+
+/* =====  End of FOOTER  ====== */
+
+/* =============================================
+=            MEDIA QUERIES            =
+============================================= */
+
+@media (min-width: 768px) {
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .medium-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 1044px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .title-span {
+    font-size: 5rem;
+    line-height: 5rem;
+    max-width: 80%;
+  }
+
+  .navbar-1,
+  .navbar,
+  .title-section,
+  .partner-section,
+  .main-section,
+  .feature-section,
+  .footer-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+}
+
+/* =====  End of MEDIA QUERIES  ====== */

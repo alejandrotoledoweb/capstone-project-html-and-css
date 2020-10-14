@@ -1,0 +1,174 @@
+
+/* =============================================
+=            HEADER SECTION            =
+============================================= */
+
+.event-logo {
+  max-width: 50px;
+}
+
+.navbar-2-list {
+  list-style-type: none;
+}
+
+.navbar-1,
+.navbar-2 {
+  display: none;
+  visibility: hidden;
+}
+
+.nav-item-1 {
+  white-space: nowrap;
+}
+
+.bars-icon {
+  font-size: 3rem;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* =====  End of HEADER SECTION  ====== */
+
+/* =============================================
+=            TITLE SECTION            =
+============================================= */
+
+.title-h1 {
+  font-size: 1.6rem;
+}
+
+.title-span {
+  font-size: 2.7rem;
+  font-weight: 1000;
+  line-height: 2.5rem;
+}
+
+.description-section {
+  background-color: #f7f7f7;
+  border: 5px solid #d3d3d3;
+}
+
+.date-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* =====  End of TITLE SECTION  ====== */
+
+/* =============================================
+=            MAIN PROGRAM SECTION            =
+============================================= */
+
+.bg-medium-opacity {
+  background-color: rgb(145, 145, 145, 0.2);
+}
+
+.titles-program {
+  font-weight: 700;
+}
+
+.border-radius {
+  border-radius: 50px;
+}
+
+/* =====  End of MAIN PROGRAM SECTION  ====== */
+
+/* =============================================
+=            TICKETS SECTION            =
+============================================= */
+
+.tickets-form-1 tr,
+.tickets-form-1 th {
+  border: 1px solid #d3d3d3;
+}
+
+.table-tickets-1 {
+  border: 5px dashed #ec5342;
+}
+
+.smaller-hide {
+  display: none;
+  visibility: hidden;
+}
+
+.tickets-form-2 tr,
+.tickets-form-2 th {
+  border: 1px solid #d3d3d3;
+  padding: 0.1rem 0.5rem;
+}
+
+.table-tickets-2 {
+  border: 5px dashed  #ec5342;
+  font-size: 0.75rem;
+}
+
+/* =====  End of TICKETS SECTION  ====== */
+
+/* =============================================
+=            FOOTER            =
+============================================= */
+
+.logo-footer {
+  width: 100px;
+  height: 81px;
+}
+
+/* =====  End of FOOTER  ====== */
+
+/* =============================================
+=            MEDIA QUERIES            =
+============================================= */
+
+@media (min-width: 768px) {
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .medium-show {
+    display: initial !important;
+    visibility: initial !important;
+  }
+
+  .medium-hide {
+    display: none;
+    visibility: hidden;
+  }
+
+  .desktop-form {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1044px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .navbar-1,
+  .navbar-2,
+  .smaller-none {
+    display: inherit;
+    visibility: inherit;
+  }
+
+  .title-span {
+    font-size: 5rem;
+    line-height: 5rem;
+    max-width: 80%;
+  }
+
+  .navbar-1,
+  .navbar,
+  .main-section,
+  .footer-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+}
+
+/* =====  End of MEDIA QUERIES  ====== */

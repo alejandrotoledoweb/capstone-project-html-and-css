@@ -1,0 +1,196 @@
+
+/* =============================================
+=            HEADER SECTION            =
+============================================= */
+
+.event-logo {
+  max-width: 50px;
+}
+
+.navbar-2-list {
+  list-style-type: none;
+}
+
+.navbar-1,
+.navbar-2 {
+  display: none;
+  visibility: hidden;
+}
+
+.nav-item-1 {
+  white-space: nowrap;
+}
+
+.bars-icon {
+  font-size: 3rem;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* =====  End of HEADER SECTION  ====== */
+
+/* =============================================
+=            TITLE SECTION            =
+============================================= */
+
+.title-h1 {
+  font-size: 1.6rem;
+}
+
+.title-span {
+  font-size: 2.7rem;
+  font-weight: 1000;
+  line-height: 2.5rem;
+}
+
+.description-section {
+  background-color: #f7f7f7;
+  border: 5px solid #d3d3d3;
+}
+
+.date-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* =====  End of TITLE SECTION  ====== */
+
+/* =============================================
+=            MAIN PROGRAM SECTION            =
+============================================= */
+
+.bg-medium-opacity {
+  background-color: rgb(145, 145, 145, 0.2);
+}
+
+.titles-program {
+  font-weight: 700;
+}
+
+.btn-program {
+  font-size: 1.5rem;
+}
+
+/* =====  End of MAIN PROGRAM SECTION  ====== */
+
+/* =============================================
+=            SPEAKERS SECTION            =
+============================================= */
+
+.font-orange-p {
+  font-family: 'Lato Italic', Arial, Helvetica, sans-serif;
+}
+
+.border-gray {
+  border: 2px solid #d3d3d3;
+  width: 4rem;
+}
+
+.name-speaker {
+  font-weight: 900;
+}
+
+.speakers-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.each-article {
+  width: 100%;
+  height: 25rem;
+}
+
+/* =====  End of SPEAKERS SECTION  ====== */
+
+/* =============================================
+=            PARTNER SECTION            =
+============================================= */
+
+.partner-img {
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.hide-all {
+  display: none;
+  visibility: hidden;
+}
+
+/* =====  End of PARTNER SECTION  ====== */
+
+/* =============================================
+=            FOOTER            =
+============================================= */
+
+.logo-footer {
+  width: 100px;
+  height: 81px;
+}
+
+/* =====  End of FOOTER  ====== */
+
+/* =============================================
+=            MEDIA QUERIES            =
+============================================= */
+
+@media (min-width: 768px) {
+  .navbar-1,
+  .navbar-2 {
+    display: inherit;
+    visibility: initial;
+  }
+
+  .medium-hide {
+    display: none;
+  }
+
+  .speakers-article {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .each-article {
+    width: 50%;
+    height: 21rem;
+  }
+
+  .each-pic {
+    height: 22rem;
+  }
+}
+
+@media (min-width: 1044px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .title-span {
+    font-size: 5rem;
+    line-height: 5rem;
+    max-width: 80%;
+  }
+
+  .each-article {
+    width: 50%;
+    height: 15rem;
+  }
+
+  .navbar-1,
+  .navbar,
+  .footer-section,
+  .title-section,
+  .partner-section {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+
+  .each-pic {
+    height: 20rem;
+  }
+}
+
+/* =====  End of MEDIA QUERIES  ====== */
