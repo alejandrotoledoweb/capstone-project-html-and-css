@@ -156,12 +156,15 @@
   .each-article {
     width: 50%;
     height: 21rem;
-  }
+  }  
+}
 
+@media (min-width: 992px) {
   .each-pic {
     height: 22rem;
   }
 }
+
 
 @media (min-width: 1044px) {
   html {
